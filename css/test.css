@@ -1,0 +1,227 @@
+@charset "utf-8";
+@import url(common/reset.css);
+
+.container{
+    width: 100%;
+    height: auto;
+}
+
+.container .inner-container{
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+
+.container .inner-container .section-sec1{
+    width: 100%;
+    max-width: 1200px;
+    height: 400px;
+    position: relative;
+    margin: 0 auto;
+    border: 0px solid;
+    overflow: hidden;
+}
+
+.container .inner-container .section-sec1 .gallery{
+    width: 500%;
+    height: auto;
+    position: absolute;
+    border: 0px solid;
+}
+.container .inner-container .section-sec1 .gallery>ul{
+    display: flex;
+}
+.container .inner-container .section-sec1 .gallery>ul>li{
+    width: 100%;
+    height: 400px;
+}
+.container .inner-container .section-sec1 .arrow{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    box-sizing: border-box;
+}
+.container .inner-container .section-sec1 .arrow span{
+    width: 150px;
+    height: 400px;
+    background: #fff;
+    opacity: 0.1;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.container .inner-container .section-sec1 .sidetext>ul>li {
+    text-align: left;
+    position: absolute;
+    font-family: Helvetica;
+    transition: all 0.7s;
+    opacity: 0;
+    top:50%;
+    left: 10%;
+    transform: translateY(-50%);
+    color: #fff;
+}
+.container .inner-container .section-sec1 .sidetext>ul>li h1{
+    font-weight: 100;
+    font-size: 30px;
+    cursor: default;
+}
+.container .inner-container .section-sec1 .sidetext>ul>li h2{
+    font-weight: bold;
+    font-size: 15px;
+    cursor: default;
+    color: #ddd;
+}
+
+.container .inner-container .section-sec1 .sidetext>ul>li.visible{
+    opacity: 1;
+}
+
+.container .inner-container .section-sec1 .bcon {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    z-index: 1;
+}
+
+.container .inner-container .section-sec1 .bcon .items {
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.container .inner-container .section-sec1 .bcon .items>ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .inner-container .section-sec1 .bcon .items>ul>li {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #fffa;
+    box-sizing: border-box;
+    border-radius: 50%;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.container .inner-container .section-sec1 .bcon .items>ul>li:hover{
+    background: #fff7;
+}
+.on{
+    background: #fff9;
+}
+
+.container .inner-container .section-sec2{
+    width: 100%;
+    height: auto;
+    border: 0px solid;
+}
+
+.container .inner-container .section-sec2 .sec-con{
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    border: 0px solid;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+.container .inner-container .section-sec2 .sec-con p.sec2Txt{
+    width: 100%;
+    height: auto;
+    font-size: 2rem;
+    font-weight: lighter;
+    letter-spacing: 0.2rem;
+    color: #aaa;
+    text-align: center;
+    line-height: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    cursor: default;
+}
+
+.container .inner-container .section-sec2 .sec-con>ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.container .inner-container .section-sec2 .sec-con>ul>li{
+    width: 25%;
+    max-width: 300px;
+    height: auto;
+    max-height: 200px;
+    padding:1px;
+    box-sizing: border-box;
+    filter: brightness(50%);
+    transition: all 0.2s;
+}
+.container .inner-container .section-sec2 .sec-con>ul>li:hover{
+    filter: brightness(100%);
+    cursor: pointer;
+}
+.container .inner-container .section-sec2 .sec-con>ul>li img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.popup{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #0009;
+    display: none;
+    z-index: 2;
+}
+.lightBox-sub{
+    width: 50vw;
+    height: auto;
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    /* border: 1px solid; */
+}
+.lightBox-sub .sub-con{
+    width: 100%;
+    height: auto;
+}
+.lightBox-sub .sub-con img{
+    width: 100%;
+    height: auto;
+}
+.lightBox-sub span.close{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: #000;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+.popupOn{
+    /* display: block !important; */
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #0009;
+}
+
+@media only screen and (max-width: 850px){
+    .container .inner-container .section-sec2 .sec-con p.sec2Txt{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,275 @@
+@charset "utf-8";
+@import url(common/reset.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+
+.container{
+    width: 100%;
+    height: auto;
+}
+.container .inner-container{
+    width: 100%;
+    height: auto;
+}
+.container .inner-container h3.title{
+    font-size: 2rem;
+    font-weight: lighter;
+    letter-spacing: 0.2rem;
+    color: #aaa;
+    text-align: center;
+    line-height: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    cursor: default;
+}
+.container .inner-container .sections{
+    width: 90%;
+    max-width: 1400px;
+    height: auto;
+    margin: 0 auto;
+}
+.container .inner-container .sections>p.main.txt1{
+    font-size: 0.8rem;
+    font-weight: lighter;
+    font-family: 'Nanum Gothic';
+    color: #fff;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.container .inner-container .sections .section.sec1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+.container .inner-container .sections .section.sec1 h4{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color: #ddd;
+    text-align: left;
+    padding: 1rem 0;
+}
+
+.container .inner-container .sections .section.sec1 .left-con{
+    width: 40%;
+    height: auto;
+}
+
+.container .inner-container .sections .section.sec1 .left-con .keyword{
+    width: 50%;
+    height: auto;
+    padding-bottom: 1rem;
+}
+.container .inner-container .sections .section.sec1 .left-con .keyword>ul{
+    display: flex;
+}
+.container .inner-container .sections .section.sec1 .left-con .keyword>ul>li{
+    width: 15%;
+    height: auto;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #aaa;
+    text-align: center;
+}
+.container .inner-container .sections .section.sec1 .left-con .concept{
+    width: 100%;
+    height: auto;
+    padding-bottom: 1rem;
+}
+.container .inner-container .sections .section.sec1 .left-con .concept>p{
+    font-size: 0.8rem;
+    font-weight: lighter;
+    color: #aaa;
+    text-align: left;
+    padding-bottom: 1rem;
+}
+.container .inner-container .sections .section.sec1 .left-con .concept>ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container .inner-container .sections .section.sec1 .left-con .concept>ul>li{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #888;
+    text-align: left;
+    text-indent: 1rem;
+    line-height: 1.5rem;
+}
+.container .inner-container .sections .section.sec1 .left-con .color{
+    width: 100%;
+    height: auto;
+    padding-bottom: 1rem;
+}
+.container .inner-container .sections .section.sec1 .left-con .color>ul{
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+.container .inner-container .sections .section.sec1 .left-con .color>ul>li{
+    width: 20px;
+    height: 20px;
+}
+.container .inner-container .sections .section.sec1 .left-con .color>ul>li:nth-child(1){
+    background: #d38257;
+}
+.container .inner-container .sections .section.sec1 .left-con .color>ul>li:nth-child(2){
+    background: #b8664e;
+}
+.container .inner-container .sections .section.sec1 .left-con .color>ul>li:nth-child(3){
+    background: #82413f;
+}
+.container .inner-container .sections .section.sec1 .left-con .color>ul>li:nth-child(4){
+    background: #6f3744;
+}
+.container .inner-container .sections .section.sec1 .left-con .color>ul>li:nth-child(5){
+    background: #402c37;
+}
+.container .inner-container .sections .section.sec1 .left-con .color>ul>li:nth-child(6){
+    background: #3f3e44;
+}
+.container .inner-container .sections .section.sec1 .left-con .color>ul>li:nth-child(7){
+    background: #4e5c5f;
+}
+.container .inner-container .sections .section.sec1 .left-con .color>ul>li:nth-child(8){
+    background: #586e7b;
+}
+.container .inner-container .sections .section.sec1 .left-con .color>ul>li:nth-child(9){
+    background: #80899a;
+}
+.container .inner-container .sections .section.sec1 .left-con .color>p{
+    font-size: 0.8rem;
+    font-weight: lighter;
+    color: #aaa;
+    text-align: left;
+}
+.container .inner-container .sections .section.sec1 .left-con .lighting{
+    width: 100%;
+    height: auto;
+    padding-bottom: 1rem;
+}
+.container .inner-container .sections .section.sec1 .left-con .lighting>p{
+    font-size: 0.8rem;
+    font-weight: lighter;
+    color: #aaa;
+    text-align: left;
+}
+.container .inner-container .sections .section.sec1 .left-con .motive{
+    width: 100%;
+    height: auto;
+    padding-bottom: 1rem;
+}
+.container .inner-container .sections .section.sec1 .left-con .motive>p{
+    font-size: 0.8rem;
+    font-weight: lighter;
+    color: #aaa;
+    text-align: left;
+}
+
+.container .inner-container .sections .section.sec1 .right-con{
+    width: 50%;
+    height: auto;
+}
+.container .inner-container .sections .section.sec1 .right-con img{
+    width: 100%;
+    height: auto;
+}
+.container .inner-container .sections .section.sec2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+.container .inner-container .sections .section.sec2 .left-con{
+    width: 40%;
+    height: auto;
+}
+.container .inner-container .sections .section.sec2 .left-con h4{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ddd;
+    text-align: left;
+    padding: 1rem 0;
+}
+.container .inner-container .sections .section.sec2 .left-con h5{
+    font-size: 1rem;
+    font-weight: lighter;
+    letter-spacing: 0.2rem;
+    color: #ddd;
+    text-align: left;
+    padding: 1rem 0;
+}
+.container .inner-container .sections .section.sec2 .left-con .floor{
+    width: 100%;
+    height: auto;
+}
+.container .inner-container .sections .section.sec2 .left-con .vegetation{
+    width: 100%;
+    height: auto;
+}
+.container .inner-container .sections .section.sec2 .left-con p.top-txt{
+    font-size: 1rem;
+    font-weight: lighter;
+    color: #ddd;
+    text-align: left;
+    padding: 0.5rem 0;
+}
+.container .inner-container .sections .section.sec2 .left-con p.bottom-txt{
+    font-size: 0.6rem;
+    font-weight: lighter;
+    color: #ddd;
+    text-align: left;
+    padding: 0.5rem 0;
+}
+.container .inner-container .sections .section.sec2 .left-con .bottom-con>p{
+    font-size: 0.8rem;
+    font-weight: lighter;
+    color: #ddd;
+    text-align: left;
+    padding: 1rem 0;
+}
+.container .inner-container .sections .section.sec2 .left-con .top-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .inner-container .sections .section.sec2 .left-con .top-con .left{
+    width: 20%;
+    height: auto;
+}
+.container .inner-container .sections .section.sec2 .left-con .top-con .left>img{
+    width: 100%;
+    height: auto;
+}
+.container .inner-container .sections .section.sec2 .left-con .top-con .right{
+    width: 75%;
+}
+.container .inner-container .sections .section.sec2 .left-con .top-con .right span.line{
+    width: 100%;
+    height: 1px;
+    background: #ccc;
+    display: block;
+}
+.container .inner-container .sections .section.sec2 .right-con{
+    width: 50%;
+    height: auto;
+}
+.container .inner-container .sections .section.sec2 .right-con h4{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ddd;
+    text-align: left;
+    padding: 1rem 0;
+}
+.container .inner-container .sections .section.sec2 .right-con img{
+    width: 100%;
+    height: auto;
+}
